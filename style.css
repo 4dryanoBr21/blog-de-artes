@@ -1,0 +1,26 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1{
+    margin: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.anna{
+    background-color: #eee;
+    padding: 24px;
+}
+
+#anna-img{
+    width: 400px;
+}
+
+#pessoas{
+    margin-bottom: 48px;
+}
