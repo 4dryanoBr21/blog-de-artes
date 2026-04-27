@@ -12,15 +12,15 @@ h2 {
     font-weight: bold;
 }
 
-.anna{
+.titulo{
+    text-decoration: underline;
+}
+
+.trabalho01{
     background-color: #eee;
     padding: 24px;
 }
 
-#anna-img{
-    width: 400px;
-}
-
 #pessoas{
-    margin-bottom: 48px;
+    margin-bottom: 30px;
 }
