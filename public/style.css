@@ -3,30 +3,33 @@ body {
     padding-bottom: 96px;
 }
 
-h1{
-    margin: 24px;
+h1 {
     font-weight: bold;
-    text-transform: uppercase;
+    text-decoration-line: underline;
+    margin-bottom: 48px;
 }
 
 h2 {
     font-weight: bold;
 }
 
-.titulo{
-    text-decoration: underline;
+.processo {
+    display: flex;
+    flex-direction: row;
+}
+
+.producao {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
 }
 
 .trabalho01{
     background-color: #eee;
-    padding: 24px;
+    padding: 48px;
 }
 
-#pessoas{
-    margin-bottom: 30px;
-}
-
-@media (max-width: 576px) {
+@media (max-width: 500px) {
     .row .col {
         width: 100%;
         flex: 0 0 100%;
