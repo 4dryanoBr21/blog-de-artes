@@ -13,6 +13,18 @@ h2 {
     font-weight: bold;
 }
 
+.cards {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin-left: 20px;
+}
+
 .processo {
     display: flex;
     flex-direction: row;
@@ -47,6 +59,13 @@ h2 {
 
     body {
         padding: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .processo {
